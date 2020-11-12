@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    background-color: black;
+    width: 800px;
+    height: 300px;
+    box-sizing: border-box;
+    margin-top:100px;
+    position: relative;
+}
+.contenedor-velocimetro{
+    margin: 0 auto;
+    background-color: aliceblue;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    left: 50px;
+}
+.c-20{
+    background-color:palegreen;   
+    width: 100px;
+  /*  height: 40px; */
+    float: left;
+}
+.c-40{
+    background-color:fuchsia;   
+    width: 100px;
+    /*height: 80px;*/
+    float: left;
+}
+.c-60{
+    background-color:saddlebrown;   
+    width: 100px;
+   /* height: 120px;*/
+    float: left;
+}
+.c-80{
+    background-color:aqua;   
+    width: 100px;
+    /*height: 160px;*/
+    float: left;
+}
+.c-100{
+    background-color:red;   
+    width: 100px;
+    /*height: 200px;*/
+    float: left;
+}
+.caja{
+    margin: 0 auto;
+    background-color: black;
+    width: 800px;
+    height: 100px;
+    box-sizing: border-box;
+   
+}
+.velocidad{
+    margin: 0 auto;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    box-sizing: border-box;
+}
+.velocidad span{
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.acelerador-freno{
+    margin: 0 auto;
+    width: 800px;
+    height: 82px;
+    background-color: white;
+    border: 1px solid black;
+}
+.contenedor-run{
+    background-color:red;   
+    width: 400px;
+    height: 80px;
+    float: left;
+    border: 1px solid black;
+}
+.contenedor-break{
+    background-color:gray;   
+    width: 398px;
+    height: 80px;
+    float: left;
+    border: 1px solid black;
+}
+.contenedor-run p{
+    padding-left: 180px;
+}
+.contenedor-break p{
+    padding-left: 180px;
+}
